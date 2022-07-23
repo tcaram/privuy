@@ -3,5 +3,5 @@ __pycache__/
 *$py.class
 
 privacy_badger-chrome.crx
-drivers/
-output/
+drivers/*
+output/*
