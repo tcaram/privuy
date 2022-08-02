@@ -98,7 +98,7 @@ Tomás Caram <tomas.caram (at) fing.edu.uy>
 [license-shield]: https://img.shields.io/github/license/tcaram/privuy.svg?style=for-the-badge
 [license-url]: https://github.com/tcaram/privuy/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
-[Python]: https://img.shields.io/badge/Python-DD0031?style=for-the-badge&logo=python&logoColor=white
+[Python]: https://img.shields.io/badge/Python-ffff00?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://python.org/
-[Selenium]: https://img.shields.io/badge/Python-DD0031?style=for-the-badge&logo=selenium&logoColor=white
+[Selenium]: https://img.shields.io/badge/Selenium-ffff00?style=for-the-badge&logo=selenium&logoColor=white
 [Selenium-url]: https://selenium.dev/
