@@ -53,7 +53,7 @@ Debajo se detalla el software y dependencias requeridas para ejecutar localmente
 
 ### Requerimientos
 
-* [Python 3](https://python.org)
+* [Python3](https://python.org)
 * Linux con entorno gráfico (o xvfb en su defecto [la instalación queda por fuera del alcance de este manual])
 * Navegador Chrome
 
