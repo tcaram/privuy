@@ -14,7 +14,7 @@
     <li>
       <a href="#sobre-el-proyecto">Sobre el proyecto</a>
       <ul>
-        <li><a href="#sobre-el-softwaren">Sobre el software</a></li>
+        <li><a href="#sobre-el-software">Sobre el software</a></li>
       </ul>
       <ul>
         <li><a href="#desarrollado-con">Desarrollado con</a></li>
@@ -53,7 +53,7 @@ Debajo se detalla el software y dependencias requeridas para ejecutar localmente
 
 ### Requerimientos
 
-* [Python 3][https://python.org]
+* [Python 3](https://python.org)
 * Linux con entorno gráfico (o xvfb en su defecto [la instalación queda por fuera del alcance de este manual])
 * Navegador Chrome
 
