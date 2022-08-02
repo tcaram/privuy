@@ -8,6 +8,9 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service as ChromeService
+
 from selenium.webdriver.common.by import By
 import selenium.common.exceptions
 
@@ -20,7 +23,6 @@ class PrivUY:
 
     def __init__(self):
         self.options = Options()
-        self.options.binary_location = "C:\\Program Files\\Google\\Chrome Beta\\Application\\chrome.exe"
 
         self.options.add_extension('privacy_badger-chrome.crx')
         self.options.add_argument('--no-sandbox')
@@ -33,8 +35,9 @@ class PrivUY:
         self.options.add_argument('--log-level=3')
 
         self.driver = webdriver.Chrome(
-            service=Service("drivers/chromedriver.exe"),
+            service=ChromeService(ChromeDriverManager().install()),
             options=self.options)
+
         self.driver.set_page_load_timeout(10)
         self.driver.set_script_timeout(10)
         self.driver.maximize_window()
@@ -114,7 +117,7 @@ class PrivUY:
                 privacy_report["ip"]["country"] = country
                 privacy_report["ip"]["provider"] = provider
 
-                print(address, country, provider)
+                # print(address, country, provider)
 
             privacy_report["badger"].append(clean_badger_data(
                 self.get_badger_data()))  # always at the end
@@ -221,6 +224,7 @@ class PrivUY:
 
 
 if __name__ == '__main__':
+    privuy = PrivUY()
     try:
         privuy.start()    
     except Exception as err:
