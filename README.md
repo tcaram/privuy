@@ -1,7 +1,7 @@
 [![GPL-3.0 license][license-shield]][license-url]
 
 <div align="center">
-  <h3 align="center">PrivUY</h3>
+  <h1 align="center">PrivUY</h1>
 
   <p align="center">
     Detectando patrones de rastreo y aprovechamiento privado de datos en sitios web gubernamentales
