@@ -89,14 +89,14 @@ Tanto el reporte como las analíticas, quedan guardados en el directorio ``outpu
 
 ## Licencia
 
-Distribuido bajo la licencia GNU GPL V3. Ver `LICENSE.txt` para más información.
+Distribuido bajo la licencia GNU GPL V3. Ver `LICENSE` para más información.
 
 ## Contacto
 
 Tomás Caram <tomas.caram (at) fing.edu.uy>
 
 [license-shield]: https://img.shields.io/github/license/tcaram/privuy.svg?style=for-the-badge
-[license-url]: https://github.com/tcaram/privuy/blob/master/LICENSE.txt
+[license-url]: https://github.com/tcaram/privuy/blob/master/LICENSE
 [product-screenshot]: images/screenshot.png
 [Python]: https://img.shields.io/badge/Python-0000ff?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://python.org/
